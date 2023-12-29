@@ -1,14 +1,14 @@
 # recipe-app-api
 
 ###Useful commands:
-`docker-compose run`
-`docker-compose down`
-`docker-compose run --rm app sh -c "python manage.py test && flake8"`
-`docker-compose run --rm app sh -c "python manage.py makemigrations"`
-`docker-compose run --rm app sh -c "python manage.py createsuperuser"`
-`docker-compose run --rm app sh -c "python manage.py startapp {name}"`
+`docker-compose run` <br />
+`docker-compose down` <br />
+`docker-compose run --rm app sh -c "python manage.py test && flake8"` <br />
+`docker-compose run --rm app sh -c "python manage.py makemigrations"` <br />
+`docker-compose run --rm app sh -c "python manage.py createsuperuser"` <br />
+`docker-compose run --rm app sh -c "python manage.py startapp {name}"` <br />
 
 
 ###Urls:
-`http://127.0.0.1:8000/admin/`
-`http://127.0.0.1:8000/api/docs/`
+`http://127.0.0.1:8000/admin/` <br />
+`http://127.0.0.1:8000/api/docs/` <br />
