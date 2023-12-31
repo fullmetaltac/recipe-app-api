@@ -1,6 +1,6 @@
 # recipe-app-api
 
-###Useful commands:
+###Useful commands: <br />
 `docker-compose run` <br />
 `docker-compose down` <br />
 `docker-compose run --rm app sh -c "python manage.py test && flake8"` <br />
@@ -9,6 +9,6 @@
 `docker-compose run --rm app sh -c "python manage.py startapp {name}"` <br />
 
 
-###Urls:
+###Urls: <br />
 `http://127.0.0.1:8000/admin/` <br />
 `http://127.0.0.1:8000/api/docs/` <br />
