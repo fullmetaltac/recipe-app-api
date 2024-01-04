@@ -122,15 +122,6 @@ The `--no-deps -d` ensures that the dependant services (such as `proxy`) do not 
 ## Cheat sheet:
 ### Useful commands:
 ```sh
-docker-compose run
-```
-```sh
-docker-compose -f docker-compose-deploy.yml up
-```
-```sh
-docker-compose down
-```
-```sh
 docker-compose run --rm app sh -c "python manage.py test && flake8"
 ```
 ```sh
@@ -145,5 +136,9 @@ docker-compose run --rm app sh -c "python manage.py startapp {name}"
 
 
 ### Urls: <br />
-`https://127.0.0.1:8000/admin/` <br />
-`https://127.0.0.1:8000/api/docs/` <br />
+```
+https://127.0.0.1:8000/admin/
+```
+```
+https://127.0.0.1:8000/api/docs/
+```
