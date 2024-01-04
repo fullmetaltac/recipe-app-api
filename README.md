@@ -119,7 +119,7 @@ docker-compose -f docker-compose-deploy.yml up --no-deps -d app
 
 The `--no-deps -d` ensures that the dependant services (such as `proxy`) do not restart. <br /><br /><br />
 
-## Cheat sheet:
+## Django cheat-sheet:
 ### Useful commands:
 ```sh
 docker-compose run --rm app sh -c "python manage.py test && flake8"
